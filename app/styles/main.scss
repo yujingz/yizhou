@@ -92,6 +92,84 @@ body {
   }
 }
 
+.bic_calendar{
+  border:none;
+}
+.bic_calendar a{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.bic_calendar .table tbody > tr > td{
+    text-align: center;
+    padding: 0px;
+}
+.bic_calendar td div{
+    padding: 5px;
+}
+.bic_calendar td a{
+
+}
+.bic_calendar .header{
+    padding: 10px 0 10px 0;
+}
+.bic_calendar .button-month-previous{
+    padding: 5px;
+    float: left;
+}
+.bic_calendar .button-month-next{
+    padding: 5px;
+    float: right;
+}
+.bic_calendar .button-year-previous{
+    padding: 5px;
+    float: left;
+}
+.bic_calendar .button-year-next{
+    padding: 5px;
+    float: right;
+}
+.bic_calendar .monthAndYear{
+    text-align: center;
+    font-weight: 500;
+}
+.bic_calendar .days-month{
+    font-weight: 500;
+}
+.bic_calendar .event{
+    color: white;
+    font-weight: bold;
+}
+.bic_calendar .event:hover{
+}
+.bic_calendar .event a{
+    color: white;
+}
+.bic_calendar .table{
+    margin-bottom: 3px;
+}
+.bic_calendar .days-month td{
+}
+.bic_calendar .selection{
+}
+.bic_calendar .first-selection{
+}
+.bic_calendar .last-selection{
+}
+.bic_calendar .middle-selection{
+}
+.bic_calendar .popover{
+    color: #000;
+    text-shadow: none;
+}
+.bic_calendar .popover-content{
+    font-weight: 300;
+}
+
+table td {
+    border-top: none !important;
+}
+
 #main-container {
   margin-top: 50px;
   margin-left: auto;
@@ -111,7 +189,7 @@ body {
   width: 960px;
   height: 320px;
   font-size: 120px;
-  padding-left: 20px;
+  padding-left: 120px;
 }
 
 #main-deco-word {
