@@ -14,6 +14,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Helvetica'
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -95,21 +96,51 @@ body {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
   width: 960px;
   height: 620px;
   background: url('../images/oct.png') white no-repeat;
-  background-position: 0px 300px, center;
+  background-position: -20px 0px, center;
 }
 
 #top-box {
   width: 960px;
   height: 300px;
-  border: 1px solid blue;
 }
 
 #bottom-box {
   width: 960px;
   height: 320px;
-  border: 1px solid red;
+  font-size: 120px;
+  padding-left: 20px;
 }
+
+#main-deco-word {
+  color: gray;
+}
+
+#calendar {
+  border:    0 !important;
+  font-size: 9px;
+  height:    200px;
+  width:     240px;
+  float:     right;
+  position:  relative;
+  top:       80px;
+  right:     80px;
+}
+
+.days-month {
+  td.sunday {
+    color: #FCD69D;
+  }
+  td:nth-child(6) {
+    color: #FCD69D;
+  }
+}
+
+
+
+
+
+
+
