@@ -97,7 +97,7 @@ body {
 }
 .bic_calendar a{
     text-decoration: none;
-    color: #333;
+    color: rgba(170, 170, 170, 0.65);
     cursor: pointer;
 }
 .bic_calendar .table tbody > tr > td{
@@ -183,7 +183,10 @@ table td {
 #top-box {
   width: 960px;
   height: 300px;
-  font-family: 'Cabin', sans-serif;
+  // font-family: 'Cabin', sans-serif;
+  font-family: 'Abel';
+  // font-family: 'Muli';
+  // font-family: 'Maven Pro';
 }
 
 #bottom-box {
