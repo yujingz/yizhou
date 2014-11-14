@@ -1,4 +1,6 @@
 $ ->
+  $("#main-month").html(moment().format("MMM").toUpperCase())
+
   monthNames = ["January", "February", "May", "June", "March", "April", "July", "August", "September", "October", "November", "December"]
   dayNames = ["MON", "TUE", "WED", "THR", "FRI", "SAT", "SUN"]
   $("#calendar").bic_calendar
